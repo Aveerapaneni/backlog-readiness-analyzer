@@ -1,0 +1,109 @@
+Backlog readiness as of 2026-11-11
+============================================================
+Program: 61 Ready (54.5%), 12 Almost ready, 39 Not ready of 112. 41 are 6+ months old (19 not fully ready).
+  Since 2026-11-04: ready share +8.3 pts
+
+Team Alpha (velocity 32)
+  Ready 20 / Almost 5 / Not ready 13  => 52.6% ready
+  Top of backlog: 58.3% ready (7 of 12)
+  Runway: 2.2 sprints of ready, pointed work (70 pts)
+  Next-sprint candidates (Almost ready, unblocked): 5 tickets, 26 pts   Blocked by another ticket: 6
+  6+ months old: 16 (7 not fully ready)
+  WARNING: 9 cards at 8+ pts - consider splitting
+  Most common gaps: Description is a one-liner x7; Blocked by another ticket x6; Acceptance criteria blank x4
+  Change: ready +8.2 pts, runway +0.7 sprints, top of backlog +0.0 pts
+
+Team Bravo (velocity 24)
+  Ready 21 / Almost 4 / Not ready 12  => 56.8% ready
+  Top of backlog: 83.3% ready (10 of 12)
+  Runway: 2.8 sprints of ready, pointed work (66 pts)
+  Next-sprint candidates (Almost ready, unblocked): 4 tickets, 5 pts   Blocked by another ticket: 4
+  6+ months old: 11 (5 not fully ready)
+  WARNING: 6 cards at 8+ pts - consider splitting
+  Most common gaps: Description is a one-liner x5; Blocked by another ticket x4; Description is blank x3
+  Change: ready +8.2 pts, runway +0.5 sprints, top of backlog +8.3 pts
+
+Team Charlie (velocity 18)
+  Ready 20 / Almost 3 / Not ready 14  => 54.1% ready
+  Top of backlog: 77.8% ready (7 of 9)
+  Runway: 4.6 sprints of ready, pointed work (82 pts)
+  Next-sprint candidates (Almost ready, unblocked): 3 tickets, 5 pts   Blocked by another ticket: 3
+  6+ months old: 14 (7 not fully ready)
+  WARNING: 8 cards at 8+ pts - consider splitting
+  Most common gaps: Description is a one-liner x8; Blocked by another ticket x3; Acceptance criteria not testable x3
+  Change: ready +8.4 pts, runway +1.5 sprints, top of backlog +0.0 pts
+
+Possible duplicates: CHAR-511 / CHAR-516
+
+What changed since 2026-11-04
+  Moved up a tier: 12   (newly Ready: 12)
+  Moved down:      0
+  Gaps closed:     13
+  New tickets:     6   Removed: 0   Newly 6+ months old: 4
+    + ALPHA-317: Almost ready -> Ready
+    + ALPHA-320: Not ready -> Ready
+    + ALPHA-321: Almost ready -> Ready
+    + ALPHA-323: Almost ready -> Ready
+    + BRAVO-409: Almost ready -> Ready
+    + BRAVO-414: Not ready -> Ready
+    + BRAVO-415: Almost ready -> Ready
+    + BRAVO-416: Almost ready -> Ready
+    + CHAR-511: Not ready -> Ready
+    + CHAR-512: Not ready -> Ready
+    + CHAR-516: Not ready -> Ready
+    + CHAR-518: Not ready -> Ready
+
+Tickets to fix (Not ready first)
+  ALPHA-302  Not ready     Bug       [SPLIT? 13 pts]  Blocked by BRAVO-410
+  ALPHA-304  Not ready     Story     [6+ months]  Blocked by CHAR-506
+  ALPHA-309  Not ready     Bug       [SPLIT? 13 pts]  No expected result; Blocked by CHAR-510
+  ALPHA-310  Not ready     Story     [6+ months]  Acceptance criteria blank; Blocked by BRAVO-102
+  ALPHA-312  Not ready     Bug        Blocked by BRAVO-408
+  ALPHA-318  Not ready     Tech Debt [6+ months]  Blocked by CHAR-517
+  ALPHA-324  Not ready     Task      [6+ months]  Description is a one-liner
+  ALPHA-328  Not ready     Tech Debt [SPLIT? 8 pts]  Description is a one-liner
+  ALPHA-331  Not ready     Task      [6+ months]  Description is a one-liner
+  ALPHA-335  Not ready     Task       Description is a one-liner
+  ALPHA-336  Not ready     Task       Description is a one-liner
+  ALPHA-337  Not ready     Task       Description is a one-liner
+  ALPHA-338  Not ready     Task       Description is a one-liner
+  BRAVO-405  Not ready     Story      Blocked by ALPHA-305
+  BRAVO-411  Not ready     Story      Acceptance criteria not testable; Blocked by CHAR-301
+  BRAVO-418  Not ready     Tech Debt [SPLIT? 8 pts]  Description is blank
+  BRAVO-422  Not ready     Story     [6+ months]  Blocked by CHAR-505
+  BRAVO-426  Not ready     Research  [6+ months]  Description is blank
+  BRAVO-428  Not ready     Bug        No expected result; Blocked by CHAR-520
+  BRAVO-429  Not ready     Story      Description is blank
+  BRAVO-432  Not ready     Spike     [6+ months]  Description is a one-liner
+  BRAVO-434  Not ready     Task       Description is a one-liner
+  BRAVO-435  Not ready     Task       Description is a one-liner
+  BRAVO-436  Not ready     Task       Description is a one-liner
+  BRAVO-437  Not ready     Task       Description is a one-liner
+  CHAR-503   Not ready     Story      Blocked by BRAVO-406
+  CHAR-509   Not ready     Story     [6+ months] [SPLIT? 8 pts]  Acceptance criteria not testable; Blocked by ALPHA-311
+  CHAR-513   Not ready     Story      Acceptance criteria not testable; Blocked by ALPHA-204
+  CHAR-519   Not ready     Task       Description is blank
+  CHAR-520   Not ready     Task      [6+ months]  Description is a one-liner
+  CHAR-522   Not ready     Story     [6+ months]  Description is blank
+  CHAR-524   Not ready     Tech Debt  Description is a one-liner
+  CHAR-527   Not ready     Bug       [6+ months]  Description is blank
+  CHAR-529   Not ready     Bug       [6+ months]  Description is a one-liner
+  CHAR-530   Not ready     Story     [SPLIT? 8 pts]  Description is a one-liner
+  CHAR-534   Not ready     Task       Description is a one-liner
+  CHAR-535   Not ready     Task       Description is a one-liner
+  CHAR-536   Not ready     Task       Description is a one-liner
+  CHAR-537   Not ready     Task       Description is a one-liner
+  ALPHA-327  Almost ready  Story      Acceptance criteria blank
+  ALPHA-329  Almost ready  Story     [6+ months] [SPLIT? 13 pts]  Acceptance criteria blank
+  ALPHA-332  Almost ready  Bug       [6+ months]  No expected result
+  ALPHA-333  Almost ready  Story      Acceptance criteria blank
+  ALPHA-334  Almost ready  Story      Acceptance criteria not testable
+  BRAVO-417  Almost ready  Story      Acceptance criteria blank
+  BRAVO-419  Almost ready  Story     [6+ months]  Acceptance criteria blank
+  BRAVO-420  Almost ready  Spike      No assignee
+  BRAVO-433  Almost ready  Spike     [6+ months]  No assignee
+  CHAR-526   Almost ready  Story     [6+ months]  Acceptance criteria not testable
+  CHAR-528   Almost ready  Tech Debt [6+ months]  No code file or component named
+  CHAR-531   Almost ready  Spike      No assignee
+
+Snapshot saved to examples/snapshots/2026-11-11.json

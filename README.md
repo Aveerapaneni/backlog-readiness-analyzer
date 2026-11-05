@@ -5,6 +5,14 @@ shows whether refinement is working from one week to the next.
 
 Full requirements: [`backlog-readiness-PRD.md`](backlog-readiness-PRD.md).
 
+## Live dashboard
+
+**[Open the backlog readiness dashboard](https://raw.githack.com/Aveerapaneni/backlog-readiness-analyzer/main/dashboard/index.html)**
+
+Shows the latest pushed run of `dashboard/index.html`; it can take a few minutes to refresh after a push.
+Once GitHub Pages is enabled (Settings > Pages > Deploy from branch `main`, `/ (root)`), it is also at
+https://aveerapaneni.github.io/backlog-readiness-analyzer/dashboard/.
+
 ## The problem
 
 Sprint planning assumes the top of the backlog is ready. It usually is not: one-line descriptions, stories
